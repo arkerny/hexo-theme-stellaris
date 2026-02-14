@@ -59,6 +59,7 @@ const Footer = (props) => {
           {__('footer.powered_by_2')}
         </div>
         {theme.footer.icp && parse(markdown(theme.footer.icp))}
+        {theme.footer.content && parse(markdown(theme.footer.content))}
         {theme.server_render.footer && theme.server_render.status ? (
           <div>{__('footer.server_render')}</div>
         ) : (

@@ -36,15 +36,14 @@ Stellaris 是一款 Hexo 博客主题，派生自 [Stellar](https://github.com/x
 
 ### 📥 使用 Git 安装
 
+- 📥 安装依赖
+  ``` bash
+  npm install react react-dom hexo-renderer-jsx html-react-parser --save
+  ```
+  依赖相关的版本可以查看 `package.json`
 - 📥 将主题安装为子模块
   ``` bash
   git submodule add https://github.com/chiyuki0325/hexo-theme-stellaris.git themes/stellaris
-  ```
-
-- 📥 安装依赖
-  ```bash
-  cd themes/stellaris
-  npm install
   ```
 
 ### 📥 使用 npm 安装
